@@ -1,0 +1,64 @@
+//import
+@import "../utilidades/variables";
+
+/* ------------------------------ Page routines ----------------------------- */
+.routines {
+    padding: 20px 25px;
+    @extend %flex-column;
+    gap: 20px;
+    min-height: 90vh;
+    .routine-list {
+        width: 100%;
+        min-height: 250px;
+        text-align: center;
+        background-color: black;
+        border-radius: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px;
+        a {
+            font-size: 1.4rem;
+            @extend %routine-list-a;
+        }
+        ol {
+            @extend %flex-column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            gap: 10px;
+            color: $lettercolor;
+            list-style-position: inside;
+            list-style: circle;
+            li {
+                font-family: 'Montserrat', sans-serif;
+                margin: 10px 0px;
+                font-size: 1.1rem;
+            }
+            li:hover {
+                font-weight: bold;
+            }
+        }
+    }
+    .routine-one {
+        background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../img/routines/hipertrofiahombre.jpg);
+    }
+    
+    .routine-two {
+        background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../img/routines/hipertrofiamujer.jpg);
+    }
+    
+    .routine-three {
+        background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../img/routines/fuerzadeportista.jpg);
+    }
+    
+    .routine-four {
+        background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../img/routines/hipertrofia.jpg);
+    }
+    .routine-five {
+        background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../img/routines/full-body.jpg);
+    }
+    .routine-six {
+        background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(../img/routines/tren-inferior-superior.jpg);
+    }
+}

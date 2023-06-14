@@ -1,0 +1,21 @@
+//Mixin
+@mixin productos($parametros){
+
+}
+
+//include productos(parametros);
+
+//Routines
+
+//Transitions
+@mixin transitions-timer{
+    transition: transform .3s, background-color .5s, color .3s;
+}
+
+@mixin transitions-color($color, $background){
+    color: $color;
+    background-color: $background;
+}
+
+
+

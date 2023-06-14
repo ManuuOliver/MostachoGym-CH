@@ -1,0 +1,32 @@
+//extend
+
+%border{
+    border: 8px solid black;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+//Flex
+
+// @extend %border;
+
+/* ---------------------------------- Flex ---------------------------------- */
+%flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------------------- Routine -------------------------------- */
+%routine-list-a{
+    display: inline-block;
+    color: $backgroundcolor;
+    background-color: $lettercolor;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
