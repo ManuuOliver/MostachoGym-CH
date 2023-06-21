@@ -6,7 +6,9 @@
 .section-news{
     display: none;
 }
-
+.news-main{
+    background-color: $lettercolor;
+}
 .sections-news-tablet{
     width: 100%;
     height: 80vh;

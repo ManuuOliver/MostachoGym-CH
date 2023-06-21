@@ -164,6 +164,31 @@
             }
         }
     }
+    /* ---------------------------------- News ---------------------------------- */
+    .section-news{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .news-item{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            align-items: center;
+            iframe{
+                padding: 10px;
+                outline: 3px dashed $strongbackgroundcolor;
+            }
+        }
+        .news-item-one{
+            iframe{
+                padding: 0;
+            }
+        }
+    }
     
     
 }
