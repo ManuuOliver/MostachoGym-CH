@@ -3,6 +3,10 @@
 
 /* --------------------------------- Tablets -------------------------------- */
 @media screen and (min-width:600px){
+    /* Header */
+    .header{
+        padding: 0 60px;
+    }
     /* Footer */
     .footer {
         flex-direction: row;
@@ -75,6 +79,10 @@
 
 /* -------------------------------- Computers ------------------------------- */
 @media screen and (min-width:1024px){
+    /* Header */
+    .header{
+        padding: 0 100px;
+    }
     /* Homepage */
     .testimonials {
         display: grid;
